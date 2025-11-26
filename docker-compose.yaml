@@ -1,0 +1,32 @@
+services:
+    web:
+        build:
+            context: ./src
+        volumes:
+            - ./src:/var/www/html
+        ports:
+            - "80:80"
+        networks:
+            backend:
+                ipv4_address: 172.21.0.2
+        depends_on:
+            - db
+    db:
+        image: mysql:5.7
+        restart: always
+        environment:
+            - MYSQL_ROOT_PASSWORD=p4ssw0rd
+        volumes:
+            - ./init-dbs.sql:/docker-entrypoint-initdb.d/init-dbs.sql
+        ports:
+            - "3306:3306"
+        networks:
+            backend:
+                ipv4_address: 172.21.0.3
+
+networks:
+    backend:
+        ipam:
+            driver: default
+            config:
+                - subnet: "172.21.0.0/29"
