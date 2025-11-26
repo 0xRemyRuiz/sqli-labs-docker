@@ -6,10 +6,10 @@ I've taken inspiration from OxNinja/SQLi-lab very nice lab.
 
 Sources
 -------
--https://github.com/Audi-1/sqli-labs
--https://github.com/mukkul007/sqli-labs-kali2
--https://github.com/Rock718/sqli-labs-php7
--https://github.com/OxNinja/SQLi-lab
+ - https://github.com/Audi-1/sqli-labs
+ - https://github.com/mukkul007/sqli-labs-kali2
+ - https://github.com/Rock718/sqli-labs-php7
+ - https://github.com/OxNinja/SQLi-lab
 
 Run command
 -----------
