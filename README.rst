@@ -22,26 +22,26 @@ SQLI-LABS is a platform to learn SQLI
 Following labs are covered for GET and POST scenarios:
 
 1. Error Based Injections (Union Select)
-	1. String
-	2. Integer
+	a. String
+	b. Integer
 2. Error Based Injections (Double Injection Based)
 3. BLIND Injections
-	1.Boolian Based
-	2.Time Based
+	a. Boolian Based
+	b. Time Based
 4. Update Query Injection
 5. Insert Query Injections
 6. Header Injections
-	1.Referer based
-	2.UserAgent based
-	3.Cookie based
+	a. Referer based
+	b. UserAgent based
+	c. Cookie based
 7. Second Order Injections
 8. Bypassing WAF
-	1. Bypassing Blacklist filters
-		Stripping comments
-		Stripping OR & AND
-		Stripping SPACES and COMMENTS
-		Stripping UNION & SELECT
-	2. Impidence mismatch
+	a. Bypassing Blacklist filters
+		- Stripping comments
+		- Stripping OR & AND
+		- Stripping SPACES and COMMENTS
+		- Stripping UNION & SELECT
+	b. Impidence mismatch
 9. Bypass addslashes()
 10. Bypassing mysql_real_escape_string (under special conditions)
 11. Stacked SQL injections
