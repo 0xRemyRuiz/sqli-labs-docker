@@ -20,9 +20,10 @@ Brief overview
 --------------
 SQLI-LABS is a platform to learn SQLI 
 Following labs are covered for GET and POST scenarios:
+
 1. Error Based Injections (Union Select)
 	1. String
-	2. Intiger
+	2. Integer
 2. Error Based Injections (Double Injection Based)
 3. BLIND Injections
 	1.Boolian Based
